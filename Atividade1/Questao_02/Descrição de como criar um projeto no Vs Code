@@ -1,0 +1,3 @@
+// Lauane Mateus - matrícula 202103747
+
+Para criar um projeto no Vs Code, abra um arquivo, salve como "nome.java" ( eu salvei como Matricula.java ) e salve na pasta desejada. Depois faça o código, salve e clique em rum no triângulo posicionado no canto superior direito ("Run Java") para compilar e executar o código no terminal do vs code. Caso queira compilar e executar no terminal do computador, basta abrir o terminal na pasta que está o código e escrever "javac nome.java" ( no meu caso seria: javac Matricula.java ). Após isso o arquivo binario será criado. Para executar é só escrever "java nome" ( no meu caso seria: java Matricula ).

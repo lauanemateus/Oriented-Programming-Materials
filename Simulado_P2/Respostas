@@ -1,0 +1,13 @@
+1 - 
+Nome do padrão: 
+Strategy
+
+Problema:
+Nós queremos realizar uma ação, que pode ser de vários comportamentos. Contudo, se escrevermos o código tudo numa classe só, o código fica grande, difícil de entender, de manter e reutilizar.
+
+Contexto:
+Considere, por exemplo, que queremos fazer um código para calcular o frete de uma mercadoria. Contudo, esse frete pode ser de várias formas: sedex, correios, mercadoenvio, etc. Nós não queremos fazer vários if para calcular o frete de acordo com o tipo, onde em cada if é desenvolvido todo código, pois isso geraria os problemas citados acima: código grande, difícil de entender, de manter e reutilizar.
+
+Solução:
+Criaremos uma interface geral para todos os tipos de classe, no qual colocaremos os métodos comum a todos comportamentos ( no nosso exemplo, um método para calcular o frete ). Além disso, criaremos uma classe para cada comportamento, onde implementaremos o método do contrato da interface. Além disso, pode-se criar uma classe contexto, onde pode ter como atributo qualquer um dos comportamentos e executará os comportamentos de forma geral. 
+

@@ -1,0 +1,5 @@
+// Lauane Mateus - matrícula 202103747
+
+Para criar um projeto no Eclipse, você pode ir em File -> New -> Java Project, dessa forma será criado uma pasta, cujo nome você escolherá ( eu escolhi o nome: Questao_01 ). Além disso, desmarque a opção "Create modulo-info.java file" e clique em Finish para terminar de criar a pasta.
+Depois você vá File -> New -> Class e dê o nome para a sua Classe ( eu coloquei o nome: Matricula ) e clique em Finish. Automaticamente sua classe será salva como "nome.java" ( a minha ficou Matricula.java ).
+Agora é só escrever o código e depois clicar no botão verde superior ( "Run" ) para compilar e executar o código.
